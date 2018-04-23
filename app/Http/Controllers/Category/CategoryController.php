@@ -11,9 +11,7 @@ class CategoryController extends Controller
 {
     public function index(Area $area)
     {
-      $categories = Category::with(['listings' => function ($query) use ($area) {
-        $query->isLive()->inArea($area);
-      }])->get()->toTree();
+      $categories = Category::withListingInArea($area)->get()->toTree();
 
       return view('categories.index', compact('categories'));
     }
