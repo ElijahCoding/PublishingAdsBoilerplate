@@ -73,6 +73,6 @@ class Listing extends Model
 
     public function viewedUsers()
     {
-      return $this->belongsToMany(User::class, 'user_listing_views')->withTimestamps()->withPivot('count');
+        return $this->belongsToMany(User::class, 'user_listing_views')->withTimestamps()->withPivot(['count']);
     }
 }
