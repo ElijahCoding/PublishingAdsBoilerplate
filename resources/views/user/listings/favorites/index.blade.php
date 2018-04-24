@@ -4,7 +4,7 @@
   <div class="container">
     @if ($listings->count())
       @foreach ($listings as $listing)
-        @include('listings.partials._listing', compact('listing'))
+        @include('listings.partials._listing_favorite', compact('listing'))
       @endforeach
 
       {{ $listings->links() }}

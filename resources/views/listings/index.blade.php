@@ -7,11 +7,12 @@
     <hr>
 
     @if ($listings->count())
+
         @foreach ($listings as $listing)
           @include('listings.partials._listing', compact('listing'))
         @endforeach
 
-    {{ $listings->links() }} 
+    {{ $listings->links() }}
     @else
       <p>No listings found.</p>
     @endif
