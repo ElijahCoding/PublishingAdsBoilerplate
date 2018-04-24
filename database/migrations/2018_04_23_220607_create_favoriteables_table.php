@@ -16,8 +16,8 @@ class CreateFavoriteablesTable extends Migration
         Schema::create('favoriteables', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('user_id')->unsigned();
-            $table->integer('favouriteable_id');
-            $table->string('favouriteable_type');
+            $table->integer('favoriteable_id');
+            $table->string('favoriteable_type');
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
