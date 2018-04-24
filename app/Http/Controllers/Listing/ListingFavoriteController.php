@@ -27,4 +27,11 @@ class ListingFavoriteController extends Controller
 
       return back();
     }
+
+    public function destroy(Request $request, Area $area, Listing $listing)
+    {
+      $request->user()->favoriteListings()->detach($listing);
+
+      return back();
+    }
 }
