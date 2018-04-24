@@ -7,12 +7,12 @@
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <nav class="nav nav-stacked">
-                            <li><a href="{{ route('listings.share.index', [$area, $listing]) }}">Email to a friend</a></li>
-                            @if (!$listing->favouritedBy(Auth::user()))
+                            <li><a href="#">Email to a friend</a></li>
+                            @if (!$listing->favoritedBy(Auth::user()))
                                 <li>
                                     <a href="#" onclick="event.preventDefault(); document.getElementById('listings-favourite-form').submit();">Add to favourites</a>
 
-                                    <form action="{{ route('listings.favourites.store', [$area, $listing]) }}" method="post" id="listings-favourite-form" class="hidden">
+                                    <form action="{{ route('listings.favorites.store', [$area, $listing]) }}" method="post" id="listings-favourite-form" class="hidden">
                                         {{ csrf_field() }}
                                     </form>
                                 </li>
@@ -30,7 +30,7 @@
                 <div class="panel-body">
                     {!! nl2br(e($listing->body)) !!}
                     <hr>
-                    <p>Viewed {{ $listing->views() }} times</p>
+
                 </div>
             </div>
 
@@ -42,7 +42,7 @@
                     @if (Auth::guest())
                         <p><a href="/register">Sign up</a> for an account or <a href="/login">sign in</a> to contact listing owners.</p>
                     @else
-                        <form action="{{ route('listings.contact.store', [$area, $listing]) }}" method="post">
+                        <form action="#" method="post">
                             <div class="form-group{{ $errors->has('message') ? ' has-error' : '' }}">
                                 <label for="message" class="control-label">Message</label>
                                 <textarea name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
