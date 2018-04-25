@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers\Listing;
 
+use Mail;
 use App\Area;
 use App\Listing;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Mail\ListingContactCreated;
 use App\Http\Requests\StoreListingContactFormRequest;
 
 class ListingContactController extends Controller
@@ -17,6 +19,10 @@ class ListingContactController extends Controller
 
     public function store(StoreListingContactFormRequest $request, Area $area, Listing $listing)
     {
-      
+      Mail::to($listing->user)->queue(
+        new ListingContactCreated($listing, $request->user(), $request->message)
+      );
+
+      return back()->withSuccess("We have sent your message to {$listing->user->name}");
     }
 }
