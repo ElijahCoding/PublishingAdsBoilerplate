@@ -30,7 +30,7 @@
                 <div class="panel-body">
                     {!! nl2br(e($listing->body)) !!}
                     <hr>
-
+                    <p>Viewed {{ $listing->views() }} {{ str_plural('time', $listing->views()) }}</p>
                 </div>
             </div>
 
