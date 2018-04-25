@@ -1,0 +1,37 @@
+"id","name","slug","price","_lft","_rgt","parent_id","created_at","updated_at","usable"
+2,"Activities","community-activities",0,2,3,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+3,"Artists","community-artists",0,4,5,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+4,"Childcare","community-childcare",0,6,7,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+5,"Classes","community-classes",0,8,9,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+6,"Events","community-events",0,10,11,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+7,"General","community-general",0,12,13,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+8,"Groups","community-groups",0,14,15,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+9,"Local news","community-local-news",0,16,17,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+10,"Lost and found","community-lost-and-found",0,18,19,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+11,"Musicians","community-musicians",0,20,21,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+12,"Pets","community-pets",0,22,23,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+13,"Politics","community-politics",0,24,25,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+14,"Rideshare","community-rideshare",0,26,27,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+1,"Community","community",0,1,30,,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+15,"Volunteers","community-volunteers",0,28,29,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+17,"Strictly platonic","personals-strictly-platonic",0,32,33,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+18,"Women seeking women","personals-women-seeking-women",0,34,35,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+19,"Women seeking men","personals-women-seeking-men",0,36,37,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+20,"Men seeking women","personals-men-seeking-women",0,38,39,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+21,"Men seeking men","personals-men-seeking-men",0,40,41,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+22,"Misc romance","personals-misc-romance",0,42,43,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+23,"Casual encounters","personals-casual-encounters",0,44,45,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+24,"Missed connections","personals-missed-connections",0,46,47,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+16,"Personals","personals",0,31,50,,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+25,"Rants and raves","personals-rants-and-raves",0,48,49,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+27,"Apartments / housing","housing-apartments-housing",0,52,53,26,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+28,"Housing swap","housing-housing-swap",0,54,55,26,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+29,"Housing wanted","housing-housing-wanted",0,56,57,26,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+30,"Office / commercial","housing-office-commercial",0,58,59,26,"2018-04-25 14:04:15","2018-04-25 14:04:15",FALSE
+31,"Parking / storage","housing-parking-storage",0,60,61,26,"2018-04-25 14:04:15","2018-04-25 14:04:15",FALSE
+32,"Real estate for sale","housing-real-estate-for-sale",0,62,63,26,"2018-04-25 14:04:15","2018-04-25 14:04:15",FALSE
+33,"Rooms / shared","housing-rooms-shared",0,64,65,26,"2018-04-25 14:04:15","2018-04-25 14:04:15",FALSE
+34,"Rooms wanted","housing-rooms-wanted",0,66,67,26,"2018-04-25 14:04:15","2018-04-25 14:04:15",FALSE
+35,"Sublets / temporary","housing-sublets-temporary",0,68,69,26,"2018-04-25 14:04:15","2018-04-25 14:04:15",FALSE
+26,"Housing","housing",0,51,72,,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+36,"Vacation rentals","housing-vacation-rentals",0,70,71,26,"2018-04-25 14:04:15","2018-04-25 14:04:15",FALSE

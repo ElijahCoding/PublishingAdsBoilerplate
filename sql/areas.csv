@@ -1,0 +1,59 @@
+"id","name","slug","_lft","_rgt","parent_id","created_at","updated_at","usable"
+3,"Auburn","alabama-auburn",3,4,2,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+4,"Birmingham","alabama-birmingham",5,6,2,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+5,"Dothan","alabama-dothan",7,8,2,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+6,"Florence / Muscle shoals","alabama-florence-muscle-shoals",9,10,2,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+7,"Huntsville / Decatur","alabama-huntsville-decatur",11,12,2,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+8,"Mobile","alabama-mobile",13,14,2,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+9,"Montgomery","alabama-montgomery",15,16,2,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+2,"Alabama","us-alabama",2,19,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+10,"Tuscaloosa","alabama-tuscaloosa",17,18,2,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+12,"Anchorage / Mat-su","alaska-anchorage-mat-su",21,22,11,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+13,"Fairbanks","alaska-fairbanks",23,24,11,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+14,"Kenai Peninsula","alaska-kenai-peninsula",25,26,11,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+11,"Alaska","us-alaska",20,29,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+15,"Southeast Alaska","alaska-southeast-alaska",27,28,11,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+17,"Flagstaff / Sedona","arizona-flagstaff-sedona",31,32,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+18,"Mohave County","arizona-mohave-county",33,34,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+19,"Phoenix","arizona-phoenix",35,36,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+20,"Prescott","arizona-prescott",37,38,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+21,"Show Low","arizona-show-low",39,40,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+22,"Sierra Vista","arizona-sierra-vista",41,42,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+23,"Tucson","arizona-tucson",43,44,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+16,"Arizona","us-arizona",30,47,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+24,"Yuma","arizona-yuma",45,46,16,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+26,"Fayetteville","arkansas-fayetteville",49,50,25,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+27,"Fort Smith","arkansas-fort-smith",51,52,25,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+28,"Jonesboro","arkansas-jonesboro",53,54,25,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+29,"Little Rock","arkansas-little-rock",55,56,25,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+25,"Arkansas","us-arkansas",48,59,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+30,"Texarkana","arkansas-texarkana",57,58,25,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+32,"Bakersfield","california-bakersfield",61,62,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+33,"Chico","california-chico",63,64,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+34,"Fresno / Madera","california-fresno-madera",65,66,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+35,"Gold Country","california-gold-country",67,68,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+36,"Hanford-Corcoran","california-hanford-corcoran",69,70,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+37,"Humboldt County","california-humboldt-county",71,72,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+38,"Inland Empire","california-inland-empire",73,74,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+39,"Los Angeles","california-los-angeles",75,76,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+40,"Mendocino County","california-mendocino-county",77,78,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+41,"Merced","california-merced",79,80,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+42,"Modesto","california-modesto",81,82,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+43,"Monterey Bay","california-monterey-bay",83,84,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+44,"Orange County","california-orange-county",85,86,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+45,"Palm Springs","california-palm-springs",87,88,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+46,"Redding","california-redding",89,90,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+47,"Sacramento","california-sacramento",91,92,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+48,"San Diego","california-san-diego",93,94,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+49,"San Francisco Bay Area","california-san-francisco-bay-area",95,96,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+50,"San Luis Obispo","california-san-luis-obispo",97,98,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+51,"Santa Barbara","california-santa-barbara",99,100,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+52,"Santa Maria","california-santa-maria",101,102,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+53,"Siskiyou County","california-siskiyou-county",103,104,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+54,"Stockton","california-stockton",105,106,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+55,"Susanville","california-susanville",107,108,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+56,"Ventura County","california-ventura-county",109,110,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+57,"Visalia-Tulare","california-visalia-tulare",111,112,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+1,"US","us",1,116,,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+31,"California","us-california",60,115,1,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
+58,"Yuba-Sutter","california-yuba-sutter",113,114,31,"2018-04-25 14:04:14","2018-04-25 14:04:14",FALSE
