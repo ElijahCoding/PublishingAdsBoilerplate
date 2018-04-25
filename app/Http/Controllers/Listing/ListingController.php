@@ -54,11 +54,27 @@ class ListingController extends Controller
 
     public function edit(Request $request, Area $area, Listing $listing)
     {
-      return view('listings.edit', compact('listing'));
+      // $this->authorize('edit', $listing);
+      if ($listing->user_id === auth()->user()->id) {
+        return view('listings.edit', compact('listing'));
+      }
     }
 
-    public function update()
+    public function update(StoreListingFormRequest $request, Area $area, Listing $listing)
     {
+      if ($listing->user_id === auth()->user()->id) {
+        $listing->title = $request->title;
+        $listing->body = $request->body;
 
+        if (!$listing->live()) {
+            $listing->category_id = $request->category_id;
+        }
+
+        $listing->area_id = $request->area_id;
+
+        $listing->save();
+
+        return back()->withSuccess('Listing edited successfully.');
+      }
     }
 }
