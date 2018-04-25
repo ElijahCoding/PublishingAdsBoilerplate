@@ -42,7 +42,9 @@
                     @if (Auth::guest())
                         <p><a href="/register">Sign up</a> for an account or <a href="/login">sign in</a> to contact listing owners.</p>
                     @else
-                        <form action="#" method="post">
+
+                        <form action="{{ route('listings.contact.store', [$area, $listing]) }}" method="post">
+                            {{ csrf_field() }}
                             <div class="form-group{{ $errors->has('message') ? ' has-error' : '' }}">
                                 <label for="message" class="control-label">Message</label>
                                 <textarea name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
@@ -60,8 +62,8 @@
                                 </span>
                             </div>
 
-                            {{ csrf_field() }}
                         </form>
+
                     @endif
                 </div>
             </div>
