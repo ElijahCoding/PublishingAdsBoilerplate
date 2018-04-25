@@ -2,7 +2,6 @@
 
 namespace App\Http\Requests;
 
-use Illuminate\Validation\Rule;
 use Illuminate\Foundation\Http\FormRequest;
 
 class StoreListingFormRequest extends FormRequest
@@ -25,20 +24,20 @@ class StoreListingFormRequest extends FormRequest
     public function rules()
     {
         return [
-          'title' => 'required|max:255',
-          'body' => 'required|max:2000',
-          'category_id' => [
+            'title' => 'required|max:255',
+            'body' => 'required|max:2000',
+            'category_id' => [
                 'required',
-                Rule::exists('categories', 'id')->where(function ($query) {
+                \Illuminate\Validation\Rule::exists('categories', 'id')->where(function ($query) {
                     $query->where('usable', true);
                 })
             ],
             'area_id' => [
-               'required',
-               Rule::exists('areas', 'id')->where(function ($query) {
-                   $query->where('usable', true);
-               })
-           ]
+                'required',
+                \Illuminate\Validation\Rule::exists('areas', 'id')->where(function ($query) {
+                    $query->where('usable', true);
+                })
+            ]
         ];
     }
 }

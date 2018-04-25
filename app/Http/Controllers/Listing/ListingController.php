@@ -37,7 +37,7 @@ class ListingController extends Controller
       return view('listings.create');
     }
 
-    public function store(StoreListingFormRequest $request)
+    public function store(StoreListingFormRequest $request, Area $area, Listing $listing)
     {
       $listing = new Listing;
       $listing->title = $request->title;
@@ -48,5 +48,17 @@ class ListingController extends Controller
       $listing->live = false;
 
       $listing->save();
+
+      return redirect()->route('listings.edit', [$area, $listing]);
+    }
+
+    public function edit(Request $request, Area $area, Listing $listing)
+    {
+      return view('listings.edit', compact('listing'));
+    }
+
+    public function update()
+    {
+
     }
 }
