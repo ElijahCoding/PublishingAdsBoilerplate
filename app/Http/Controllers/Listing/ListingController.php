@@ -30,4 +30,14 @@ class ListingController extends Controller
 
       return view('listings.show', compact('listing'));
     }
+
+    public function create()
+    {
+      return view('listings.create');
+    }
+
+    public function store()
+    {
+
+    }
 }
