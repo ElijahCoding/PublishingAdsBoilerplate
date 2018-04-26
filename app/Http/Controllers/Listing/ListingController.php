@@ -81,4 +81,13 @@ class ListingController extends Controller
         return back()->withSuccess('Listing edited successfully.');
       }
     }
+
+    public function destroy(Area $area, Listing $listing)
+    {
+      if ($listing->user_id === auth()->user()->id) {
+        $listing->delete();
+
+        return back()->withSuccess('Listing was deleted.');
+      }
+    }
 }

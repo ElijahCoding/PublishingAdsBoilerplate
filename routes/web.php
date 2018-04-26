@@ -40,14 +40,17 @@ Route::group(['prefix' => '/{area}'], function() {
 
 
     Route::get('/unpublished', 'ListingUnpublishedController@index')->name('listings.unpublished.index');
+    Route::get('/published', 'ListingPublishedController@index')->name('listings.published.index');
 
-    // CRUD
+
+    // Listing CRUD
     Route::group(['middleware' => 'auth'], function () {
       Route::get('/create', 'ListingController@create')->name('listings.create');
       Route::post('/', 'ListingController@store')->name('listings.store');
 
       Route::get('/{listing}/edit', 'ListingController@edit')->name('listings.edit');
       Route::patch('/{listing}', 'ListingController@update')->name('listings.update');
+      Route::delete('/{listing}', 'ListingController@destroy')->name('listings.destroy');
 
     });
   });
