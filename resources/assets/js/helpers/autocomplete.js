@@ -1,5 +1,5 @@
-import autocomplete from 'autocomplete-js'
-import algolia from 'algolia'
+import autocomplete from 'autocomplete.js'
+import algolia from 'algoliasearch'
 
 var index = algolia('6UQC00A0LG', 'b1d7961bd271fd8ee59febe3b6f16fcd')
 
@@ -10,8 +10,8 @@ export const listingsautocomplete = (selector) => {
     {
       source: autocomplete.sources.hits(listings, {hitsPerPage: 5}),
       templates: {
-        suggestion: (suggestion) {
-          console.log(suggestion)
+        suggestion (suggestion) {
+          return '<span>' + suggestion.title + '</span>'
         }
       },
       displayKey: 'title',

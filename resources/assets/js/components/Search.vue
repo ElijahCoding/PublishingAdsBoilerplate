@@ -10,5 +10,11 @@
 </template>
 
 <script>
+  import { listingsautocomplete } from '../helpers/autocomplete.js'
 
+  export default {
+    mounted () {
+      listingsautocomplete('#listing-search')
+    }
+  }
 </script>
