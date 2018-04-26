@@ -55,6 +55,25 @@ class ListingPaymentController extends Controller
         return redirect()
             ->route('listings.show', [$area, $listing])
             ->withSuccess('Congratulations! Payment accepted and your listing is live.');
+
+      }
+    }
+
+    public function update(Request $request, Area $area, Listing $listing)
+    {
+      if ($listing->user_id === auth()->user()->id) {
+        if ($listing->cost() > 0) {
+          return back();
+        }
+
+        $listing->live = true;
+        $listing->created_at = \Carbon\Carbon::now();
+        $listing->save();
+
+        return redirect()
+            ->route('listings.show', [$area, $listing])
+            ->withSuccess('Congratulations! Your listing is live.');
+
       }
     }
 }
