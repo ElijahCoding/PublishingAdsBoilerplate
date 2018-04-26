@@ -19,6 +19,8 @@
     "vue": "^2.1.10"
   },
   "dependencies": {
+    "algoliasearch": "^3.27.0",
+    "autocomplete.js": "^0.29.0",
     "braintree-web": "^2.*"
   }
 }
