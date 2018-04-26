@@ -39,6 +39,8 @@ Route::group(['prefix' => '/{area}'], function() {
     Route::patch('/{listing}/payment', 'ListingPaymentController@update')->name('listings.payment.update');
 
 
+    Route::get('/unpublished', 'ListingUnpublishedController@index')->name('listings.unpublished.index');
+
     // CRUD
     Route::group(['middleware' => 'auth'], function () {
       Route::get('/create', 'ListingController@create')->name('listings.create');
