@@ -7,6 +7,7 @@
     "require": {
         "php": ">=5.6.4",
         "barryvdh/laravel-debugbar": "~2.4",
+        "braintree/braintree_php": "^3.32",
         "kalnoy/nestedset": "^4.3",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0"

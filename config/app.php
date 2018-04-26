@@ -179,6 +179,7 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
 
         App\Providers\ComposerServiceProvider::class,
+        App\Providers\BraintreeServiceProvider::class,
     ],
 
     /*
