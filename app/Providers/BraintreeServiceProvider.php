@@ -13,10 +13,10 @@ class BraintreeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        \Braintree_Configuration::environment('sandbox');
-        \Braintree_Configuration::merchantId('sandbox');
-        \Braintree_Configuration::publicKey('hzr9jgvqjhg2s2wz');
-        \Braintree_Configuration::privateKey('c4576e65bd119c414574e54b33e4cf24');
+      \Braintree_Configuration::environment(env('BRAINTREE_ENV'));
+      \Braintree_Configuration::merchantId(env('BRAINTREE_MERCHANT_ID'));
+      \Braintree_Configuration::publicKey(env('BRAINTREE_PUBLIC_KEY'));
+      \Braintree_Configuration::privateKey(env('BRAINTREE_PRIVATE_KEY'));
     }
 
     /**
