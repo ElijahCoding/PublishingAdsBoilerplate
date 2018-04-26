@@ -180,6 +180,7 @@ return [
 
         App\Providers\ComposerServiceProvider::class,
         App\Providers\BraintreeServiceProvider::class,
+        Laravel\Cashier\CashierServiceProvider::class
     ],
 
     /*

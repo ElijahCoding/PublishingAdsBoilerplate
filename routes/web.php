@@ -6,6 +6,7 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/user/area/{area}', 'User\AreaController@store')->name("user.area.store");
 
+Route::get('/braintree/token', 'BraintreeController@token');
 
 Route::group(['prefix' => '/{area}'], function() {
 
